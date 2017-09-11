@@ -9,7 +9,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
-
 /**
  * @author OmPrajapati
  *
@@ -17,7 +16,7 @@ import java.util.Scanner;
 public class StockAccount {
 
 	public static void main(String[] args) {
-		StockAccount stockAccount = new StockAccount("hello");	//	class object
+		StockAccount stockAccount = new StockAccount("hello");
 		stockAccount.addOrRemoveStock();
 	}
 	
